@@ -3,7 +3,7 @@ import * as S from "./styles";
 
 const Projects: React.FC = () => {
   return (
-    <S.ProjectsContainer>
+    <S.ProjectsContainer id='Projects'>
         <h1>Projetos</h1>
     </S.ProjectsContainer>
   );

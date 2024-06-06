@@ -11,7 +11,13 @@ export const HeaderContainer = styled.div`
     padding: 0 150px;
 `;
 
-export const Logo = styled.div``;
+export const Logo = styled.img`
+    height: 40px;
+
+    &:hover {
+        filter: drop-shadow(0 0 30px #3117eb);
+    }
+`;
 
 export const Nav = styled.div`
     display: flex;
@@ -25,7 +31,7 @@ export const Nav = styled.div`
         > li {
             > a { 
                 text-decoration: none;
-                transition: .5s;
+                transition: .5s all ease-in-out;
             }
 
             > a:hover {

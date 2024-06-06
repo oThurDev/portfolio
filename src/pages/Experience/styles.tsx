@@ -17,12 +17,16 @@ export const CompaniesDescription = styled.div`
     display: flex;
     flex-direction: column;
     margin-left: 50px;
+    background-color: #3117eb;
+    padding: 20px;
+    border-radius: 30px;
 `;
 
 export const Companies = styled.div`
     display: flex;
     flex-direction: column;
     border-left: 1px solid #3117eb;
+    margin-top: 30px;
 
     > a {
         padding: 10px;
@@ -34,6 +38,11 @@ export const Companies = styled.div`
 
     > a:last-child {
         border: none;
+        border-radius: 0 0 30px 0;
+    }
+
+    > a:first-child {
+        border-radius: 0 30px 0 0;
     }
 
     > a:hover {

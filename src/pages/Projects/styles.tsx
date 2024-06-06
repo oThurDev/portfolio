@@ -5,4 +5,5 @@ export const ProjectsContainer = styled.div`
     flex-direction: column;
     background-color: #010207;
     padding: 0 150px;
+    padding-bottom: 50px;
 `;

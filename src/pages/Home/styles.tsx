@@ -35,10 +35,10 @@ export const LinkedinButton = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 140px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     border: 1px solid #3117eb;
-    border-radius: 10px;
+    border-radius: 50%;
     transition: .5s;
     cursor: pointer;
     align-items: center;
@@ -47,9 +47,8 @@ export const LinkedinButton = styled.div`
         background-color: transparent;
     }
 
-    > a {
-        text-decoration: none;
-        margin-left: 10px;
+    > a .iconHome {
+        font-size: 20px;
     }
 
     &:hover {
@@ -61,10 +60,10 @@ export const LinkedinButton = styled.div`
 export const GitHubButton = styled.div`
     display: flex;
     flex-direction: row;
-    width: 140px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     border: 1px solid #3117eb;
-    border-radius: 10px;
+    border-radius: 50%;
     transition: .5s;
     cursor: pointer;
     align-items: center;
@@ -74,13 +73,53 @@ export const GitHubButton = styled.div`
         background-color: transparent;
     }
 
-    > a {
-        text-decoration: none;
-        margin-left: 10px;
+    > a .iconHome {
+        font-size: 20px;
     }
 
     &:hover {
         background-color: #3117eb;
         box-shadow: 0 0 20px #3117eb;
+    }
+`;
+
+export const ToggleBtn = styled.div`
+    > input {
+        display: none;
+    }
+`;
+
+export const DisplayBtn = styled.div`
+    display: flex;
+
+    > label {
+        border: solid;
+        width: 120px;
+        height: 50px;
+        border-radius: 200px;
+        cursor: pointer;
+    }
+`;
+
+export const CircleBtn = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+
+    > .icon {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+    }
+
+    > .sun {
+        margin-top: 0%;
+    }
+
+    > .moon {
+        margin-top: -150%;
     }
 `;

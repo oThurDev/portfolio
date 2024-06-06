@@ -1,7 +1,7 @@
 import React from 'react';
 import * as S from "./styles";
 
-import ImageMe from "../../assets/imageMe.png"
+import ImageMe from "../../assets/foto.jpg"
 import Curriculo from "../../assets/curriculo.pdf"
 
 import { FaArrowDown, FaClipboardUser } from 'react-icons/fa6';
@@ -12,8 +12,8 @@ const AboutMe: React.FC = () => {
         <S.ImageMe src={ImageMe} />
         <S.ResumeMe>
           <h1>Sobre Mim</h1>
-          <span>Giruá, RS</span>
           <h3>Desenvolvedor Front-End | Estudante de Engenharia de Software</h3> 
+          <span>Giruá, RS</span>
           <span>Olá! Meu nome é Arthur Bernardo, tenho 18 anos e sou apaixonado por tecnologia. Atuo como desenvolvedor front-end, criando interfaces interativas e intuitivas para websites e aplicativos. No momento, também curso Engenharia de Software na Unijui, buscando me aprofundar na área e aprimorar minhas habilidades técnicas. Clique em um dos botão abaixo e venha conversar comigo!</span>
           <S.ButtonsAboutMe>
             <S.DownloadCv>
@@ -22,7 +22,7 @@ const AboutMe: React.FC = () => {
             </S.DownloadCv>
             <S.Contato>
               <FaArrowDown className='iconAboutMe' />
-              <a href='#Contato'>Ver opções de Contato</a>
+              <a href='#contact'>Ver opções de Contato</a>
             </S.Contato>
           </S.ButtonsAboutMe>
         </S.ResumeMe>

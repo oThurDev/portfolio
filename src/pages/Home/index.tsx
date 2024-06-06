@@ -2,9 +2,9 @@ import React from 'react';
 import * as S from "./styles"
 import { Typewriter } from 'react-simple-typewriter';
 
-import ImgHome from "../../assets/img-logo.png"
+import ImgHome from "../../assets/logo_branca.png"
 
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa6';
+import { SiGithub, SiLinkedin } from 'react-icons/si';
 
 const Home: React.FC = () => {
   return (
@@ -21,12 +21,14 @@ const Home: React.FC = () => {
           </h1>
           <S.ButtonsHome>
               <S.LinkedinButton>
-                <FaLinkedinIn className='iconHome' />
-                <a href='https://www.linkedin.com/in/othurdev/' target='_blank'>Linkedin</a>
+                <a href='https://www.linkedin.com/in/othurdev/' target='_blank'>
+                  <SiLinkedin className='iconHome' />
+                </a>
               </S.LinkedinButton>
               <S.GitHubButton>
-                <FaGithub className='iconHome' />
-                <a href='https://github.com/oThurDev' target='_blank'>GitHub</a>
+                <a href='https://github.com/oThurDev' target='_blank'>
+                  <SiGithub className='iconHome' />
+                </a>
               </S.GitHubButton>
           </S.ButtonsHome>
         </S.Texts>
