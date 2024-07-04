@@ -5,7 +5,12 @@ export const ContactContainer = styled.div`
     flex-direction: column;
     padding: 0 150px;
     padding-bottom: 50px;
-    background-color: #010207;    
+    background-color: #010207;   
+    scroll-margin-top: 80px;
+
+    > h1 {
+        text-align: center;
+    }
 `;
 
 export const BodyContact = styled.div`
@@ -71,6 +76,28 @@ export const InputGroup = styled.div`
     }
 `;
 
+export const ButtonSubmit = styled.button`
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #3117eb;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    box-shadow: 0 0 10px #3117eb;
+    transition: .5s;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #010207;
+        border: 1px solid #3117eb;
+        box-shadow: 0 0 30px #3117eb;
+        color: #3117eb;
+    }
+`;
+
 export const RightContainer = styled.div`
     > span {
         font-size: 28px;
@@ -79,7 +106,7 @@ export const RightContainer = styled.div`
 
 export const ImgsContainer = styled.div`
     display:flex;
-    flex-direction:row;
+    flex-direction: column;
 `
 
 export const SocialSection = styled.div`
@@ -88,9 +115,13 @@ export const SocialSection = styled.div`
     align-items: center;
     padding-top: 30px;
 
+    > span {
+        font-size: 18px;
+    }
+
     > a svg {
         width: 80px;
-        height: 50px;
+        height: 60px;
         transition: .5s ease-in-out;
     }
 

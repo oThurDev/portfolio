@@ -5,7 +5,7 @@ import { FiGithub } from 'react-icons/fi';
 
 const Contact: React.FC = () => {
   return (
-    <S.ContactContainer id='contact'>
+    <S.ContactContainer id='Contact'>
         <h1>Contato</h1>
         <S.BodyContact>
             <S.LeftContainer>
@@ -26,6 +26,7 @@ const Contact: React.FC = () => {
                             <input type='text' name="contact-msg" required />
                             <label>Escreva sua Mensagem</label>
                         </S.InputGroup>
+                        <S.ButtonSubmit type='submit'>Enviar E-mail</S.ButtonSubmit>
                     </form>
                 </S.FormContact>
             </S.LeftContainer>
@@ -36,21 +37,25 @@ const Contact: React.FC = () => {
                         <a href='#' target='_blank'>
                             <FaWhatsapp  />
                         </a>
+                        <span>Whatsapp</span>
                     </S.SocialSection>
                     <S.SocialSection>
                         <a href="https://www.instagram.com/o_thuurr/" target='_blank'>
                             <FaInstagram  />
                         </a>     
+                        <span>Instagram</span>
                     </S.SocialSection>
                     <S.SocialSection>
                         <a href="https://www.linkedin.com/in/othurdev/" target='_blank'>
                             <FaLinkedinIn  />
                         </a>      
+                        <span>Linkedin</span>
                     </S.SocialSection>
                     <S.SocialSection>
                         <a href="https://github.com/oThurDev" target='_blank'>
                             <FiGithub />
                         </a>
+                        <span>GitHub</span>
                     </S.SocialSection>
                 </S.ImgsContainer>
             </S.RightContainer>

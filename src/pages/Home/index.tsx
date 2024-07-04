@@ -1,13 +1,12 @@
 import React from 'react';
 import * as S from "./styles"
+
 import { Typewriter } from 'react-simple-typewriter';
 
-import ImgHome from "../../assets/logo_branca.png"
-
-import { SiGithub, SiLinkedin } from 'react-icons/si';
+import { SiGithub, SiInstagram, SiLinkedin } from 'react-icons/si';
 
 const Home: React.FC = () => {
-  return (
+  return ( 
     <S.ContainerHome id='Home'>
         <S.Texts>
           <span>Olá Mundo! Eu sou o Arthur Bernardo</span>
@@ -19,20 +18,32 @@ const Home: React.FC = () => {
               typeSpeed={100}
             />
           </h1>
-          <S.ButtonsHome>
-              <S.LinkedinButton>
-                <a href='https://www.linkedin.com/in/othurdev/' target='_blank'>
-                  <SiLinkedin className='iconHome' />
-                </a>
-              </S.LinkedinButton>
-              <S.GitHubButton>
-                <a href='https://github.com/oThurDev' target='_blank'>
-                  <SiGithub className='iconHome' />
-                </a>
-              </S.GitHubButton>
-          </S.ButtonsHome>
         </S.Texts>
-        <S.Images src={ImgHome} />
+        <S.ButtonsHome>
+          <S.DownloadCv>
+            <a>Currículo</a>
+          </S.DownloadCv>
+          <S.ButtonContact>
+            <a>Entrar em Contato</a>
+          </S.ButtonContact>
+          <S.ButtonsSocials>
+            <S.ButtonSocial>
+              <a href='https://www.linkedin.com/in/othurdev/' target='_blank'>
+                <SiLinkedin className='iconHome' />
+              </a>
+            </S.ButtonSocial>
+            <S.ButtonSocial>
+              <a href='https://github.com/oThurDev' target='_blank'>
+                <SiGithub className='iconHome' />
+              </a>
+            </S.ButtonSocial>  
+            <S.ButtonSocial>
+              <a href='https://github.com/oThurDev' target='_blank'>
+                <SiInstagram className='iconHome' />
+              </a>
+            </S.ButtonSocial>  
+          </S.ButtonsSocials>      
+        </S.ButtonsHome>
     </S.ContainerHome>
   );
 }

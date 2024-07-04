@@ -3,9 +3,13 @@ import styled from "styled-components";
 export const ContainerSkills = styled.div`
     display: flex;
     flex-direction: column;
-    padding: 0 150px;
+    padding: 0 150px 50px 150px;
     background-color: #010207;
-    padding-bottom: 50px;
+    scroll-margin-top: 150px;
+
+    > h1 {
+        text-align: center;
+    }
 `;
 
 export const SkillsIcon = styled.div`
@@ -29,9 +33,4 @@ export const SkillsIcon = styled.div`
     > &:hover > :not(:hover) {
         opacity: 0.5;
     }
-`;
-
-export const SkillDescription = styled.div`
-    display: flex;
-    flex-direction: column;
 `;

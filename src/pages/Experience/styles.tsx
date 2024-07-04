@@ -3,9 +3,9 @@ import styled from "styled-components";
 export const ExperienceContainer = styled.div`
     display: flex;
     flex-direction: row;
-    padding: 0 150px;
+    padding: 0px 150px 100px 150px;
     background-color: #010207;
-    padding-bottom: 100px;
+    scroll-margin-top: 80px;
 `;
 
 export const RightContainer = styled.div`
@@ -20,6 +20,7 @@ export const CompaniesDescription = styled.div`
     background-color: #3117eb;
     padding: 20px;
     border-radius: 30px;
+    width: 800px;
 `;
 
 export const Companies = styled.div`
@@ -50,9 +51,18 @@ export const Companies = styled.div`
     }
 `;
 
+export const CompanyDetail = styled.div`
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+
+    > span {
+        margin-top: 30px;
+    }
+`;
+
 export const TitleCompany = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 600px;
 `;

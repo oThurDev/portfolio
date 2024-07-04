@@ -17,10 +17,6 @@ const Skills: React.FC = () => {
         <SiAdobephotoshop className='icon' />
         <SiFigma className='icon' />
       </S.SkillsIcon>
-      <S.SkillDescription>
-        <h1>HTML</h1>
-        <span>html is a language of programme</span>
-      </S.SkillDescription>
     </S.ContainerSkills>
   );
 }

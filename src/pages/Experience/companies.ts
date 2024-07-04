@@ -1,0 +1,38 @@
+export const listCompanies = [
+    {
+        cargo: "Programador Front-End e Designer",
+        name: "Devs Duo",
+        dateInicio: "Fev 2024",
+        dateFinal: "Atual",
+        city: "Giruá, RS",
+        format: "Home Office",
+        desc: "Devs Duo é uma Startup minha e do meu amigo onde pegamos alguns frellas e fazemos os sites e designs para entregar o melhor resultado possível para o usuário. Na Devs Duo trabalhamos com React JS e algumas bibliotecas como styled-components, etc... E para os designs utilizamos o Figma",
+    },
+    {
+        cargo: "Programador Front-End e Designer",
+        name: "Ageliza Auto",
+        dateInicio: "Fev 2023",
+        dateFinal: "Jan 2024",
+        city: "Giruá, RS",
+        format: "Presencial",
+        desc: "Ageliza Auto foi uma empresa que trabalhei com meu amigo, onde criamos o aplicativo/site da Ageliza Auto, fizemos o projeto utilizando React Js e React Native. Foi uma experiência muito boa, pois aprendi muito de React Js e alguns conceitos importantes de design e programação.",
+    },  
+    {
+        cargo: "Programador Front-End",
+        name: "ADAC",
+        dateInicio: "Dez 2021",
+        dateFinal: "Fev 2022",
+        city: "Passo Fundo, RS",
+        format: "Home Office",
+        desc: "ADAC foi minmha porta de entrada para a programação, foi onde tudo iniciou. Faziamos alguns projetos de clientes, muitos deles eram sites de e-commerce, que eram feitos em React Js. Lá minha experiência foi de pouco tempo mas aprendi muito com esta vaga.",
+    },
+    {
+        cargo: "Em busca da minha primeira experiência de carteira assinada",
+        name: "👀👨🏽‍💻",
+        dateInicio: "",
+        dateFinal: "",
+        city: "Quem sabe na sua empresa?",
+        format: "",
+        desc: "Estou disponível para um bate-papo, pode entrar em contato comigo clicando neste botão abaixo",
+    },  
+]
