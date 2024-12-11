@@ -1,7 +1,7 @@
 import React from 'react';
 import * as S from "./styles"
 
-import { SiAdobephotoshop, SiCss3, SiFigma, SiHtml5, SiJavascript, SiReact, SiStyledcomponents, SiTypescript } from 'react-icons/si';
+import { SiAdobephotoshop, SiCss3, SiFigma, SiHtml5, SiJavascript, SiLaravel, SiReact, SiStyledcomponents, SiTailwindcss, SiTypescript } from 'react-icons/si';
 
 const Skills: React.FC = () => {
   return (
@@ -14,6 +14,8 @@ const Skills: React.FC = () => {
         <SiTypescript  className='icon' />
         <SiReact className='icon' />
         <SiStyledcomponents className='icon' />
+        <SiLaravel className='icon' />
+        <SiTailwindcss className='icon' />
         <SiAdobephotoshop className='icon' />
         <SiFigma className='icon' />
       </S.SkillsIcon>

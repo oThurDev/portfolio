@@ -27,21 +27,21 @@ const Home: React.FC = () => {
             <a>Entrar em Contato</a>
           </S.ButtonContact>
           <S.ButtonsSocials>
-            <S.ButtonSocial>
-              <a href='https://www.linkedin.com/in/othurdev/' target='_blank'>
+            <a href='https://www.linkedin.com/in/othurdev/' target='_blank'>
+              <S.ButtonSocial>
                 <SiLinkedin className='iconHome' />
-              </a>
-            </S.ButtonSocial>
-            <S.ButtonSocial>
-              <a href='https://github.com/oThurDev' target='_blank'>
+              </S.ButtonSocial>
+            </a>
+            <a href='https://github.com/oThurDev' target='_blank'>
+              <S.ButtonSocial>
                 <SiGithub className='iconHome' />
-              </a>
-            </S.ButtonSocial>  
-            <S.ButtonSocial>
-              <a href='https://github.com/oThurDev' target='_blank'>
+              </S.ButtonSocial>
+            </a>  
+            <a href='https://instagram.com/o_thuurr' target='_blank'>
+              <S.ButtonSocial>
                 <SiInstagram className='iconHome' />
-              </a>
-            </S.ButtonSocial>  
+              </S.ButtonSocial>  
+            </a>
           </S.ButtonsSocials>      
         </S.ButtonsHome>
     </S.ContainerHome>

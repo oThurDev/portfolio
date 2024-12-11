@@ -16,7 +16,8 @@ export const SkillsIcon = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
+    margin:40px 0 20px 0;
 
     > .icon {
         width: 80px;
