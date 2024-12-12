@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const ExperienceContainer = styled.div`
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     padding: 0px 150px 100px 150px;
     background-color: #010207;
     scroll-margin-top: 80px;

@@ -1,5 +1,14 @@
 export const listCompanies = [
     {
+        cargo: "Programador Front-End e Auxiliar de Informática",
+        name: "Unitronica",
+        dateInicio: "Set 2024",
+        dateFinal: "Atual",
+        city: "Garibaldi, RS",
+        format: "Presencial",
+        desc: "Unitronica é uma empresa de Garibaldi que trabalho como Auxiliar de Informática cuidando da parte de hardware e dando suporte para os clientes via TeamViwer, também faço algumas alterações em sites criados pela empresa, utilizo Laravel para fazer e também utilizo Tailwind CSS e Booststrap.",
+    },
+    {
         cargo: "Programador Front-End e Designer",
         name: "Devs Duo",
         dateInicio: "Fev 2024",
@@ -26,13 +35,4 @@ export const listCompanies = [
         format: "Home Office",
         desc: "ADAC foi minmha porta de entrada para a programação, foi onde tudo iniciou. Faziamos alguns projetos de clientes, muitos deles eram sites de e-commerce, que eram feitos em React Js. Lá minha experiência foi de pouco tempo mas aprendi muito com esta vaga.",
     },
-    {
-        cargo: "Em busca da minha primeira experiência de carteira assinada",
-        name: "👀👨🏽‍💻",
-        dateInicio: "",
-        dateFinal: "",
-        city: "Quem sabe na sua empresa?",
-        format: "",
-        desc: "Estou disponível para um bate-papo, pode entrar em contato comigo clicando neste botão abaixo",
-    },  
 ]

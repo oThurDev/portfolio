@@ -36,14 +36,16 @@ export const ButtonsHome = styled.div`
 export const ButtonsSocials = styled.div`
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 20px;
+    margin-top: 20px;
 `;
 
 export const DownloadCv = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 200px;
+    width: 400px;
     height: 50px;
     background-color: #3117eb;
     border: 1px solid #fff;
@@ -73,7 +75,7 @@ export const ButtonContact = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 200px;
+    width: 400px;
     height: 50px;
     background-color: transparent;
     border: 1px solid #fff;
