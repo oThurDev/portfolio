@@ -3,9 +3,10 @@ import styled from "styled-components";
 export const ContainerSkills = styled.div`
     display: flex;
     flex-direction: column;
-    padding: 0 150px 50px 150px;
-    background-color: #010207;
+    padding: 25px 150px 25px 150px;
+    background-color: blue;
     scroll-margin-top: 150px;
+    box-shadow: 0 10px 150px blue;
 
     > h1 {
         text-align: center;
@@ -27,11 +28,7 @@ export const SkillsIcon = styled.div`
     }
 
     > .icon:hover {
-        filter: drop-shadow(0 0 20px #3117eb);
+        filter: drop-shadow(0 0 10px #000);
         transform: translateY(-15px);
-    }
-
-    > &:hover > :not(:hover) {
-        opacity: 0.5;
     }
 `;

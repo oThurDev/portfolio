@@ -6,12 +6,11 @@ export const ProjectsContainer = styled.div`
     justify-content: center;
     align-items: center;
     background-color: #010207;
-    padding: 0 150px;
-    padding-bottom: 50px;
+    padding: 0 150px 50px 150px;
     scroll-margin-top: 80px;
 
     > h1 {
-        text-align: center;
+        margin-top: 50px;
     }
 
     > a {

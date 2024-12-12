@@ -5,6 +5,9 @@ import { Typewriter } from 'react-simple-typewriter';
 
 import { SiGithub, SiInstagram, SiLinkedin } from 'react-icons/si';
 
+import Perfil from "../../assets/perfil.png";
+import Curriculo from "../../assets/curriculo.pdf";
+
 const Home: React.FC = () => {
   return ( 
     <S.ContainerHome id='Home'>
@@ -12,20 +15,18 @@ const Home: React.FC = () => {
           <span>Olá Mundo! Eu sou o Arthur Bernardo</span>
           <h1>
             <Typewriter 
-              words={['Desenvolvedor Front-End', 'Designer', 'Técnico em Informática']} 
+              words={['Desenvolvedor Front-End', 'Designer', 'Técnico em Informática', 'Futuro Engenheiro de Software']} 
               loop={0}
               cursor
               typeSpeed={100}
             />
           </h1>
-        </S.Texts>
-        <S.ButtonsHome>
           <S.DownloadCv>
-            <a>Currículo</a>
+            <a href={Curriculo} target='_blank'>Currículo</a>
           </S.DownloadCv>
           <S.ButtonContact>
-            <a>Entrar em Contato</a>
-          </S.ButtonContact>
+            <a href='#Contact'>Entrar em Contato</a>
+          </S.ButtonContact>   
           <S.ButtonsSocials>
             <a href='https://www.linkedin.com/in/othurdev/' target='_blank'>
               <S.ButtonSocial>
@@ -42,8 +43,11 @@ const Home: React.FC = () => {
                 <SiInstagram className='iconHome' />
               </S.ButtonSocial>  
             </a>
-          </S.ButtonsSocials>      
-        </S.ButtonsHome>
+          </S.ButtonsSocials>  
+        </S.Texts>
+        <S.RightHome>
+          <S.PerfilImg src={Perfil} />
+        </S.RightHome>
     </S.ContainerHome>
   );
 }

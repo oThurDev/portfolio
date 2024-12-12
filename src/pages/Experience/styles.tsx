@@ -13,6 +13,7 @@ export const ExperienceContainer = styled.div`
 export const RightContainer = styled.div`
     display: flex;
     flex-direction: column;
+    margin-bottom: 50px;
 `;
 
 export const CompaniesDescription = styled.div`
