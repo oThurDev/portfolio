@@ -6,7 +6,6 @@ import { SiAdobephotoshop, SiCss3, SiFigma, SiHtml5, SiJavascript, SiLaravel, Si
 const Skills: React.FC = () => {
   return (
     <S.ContainerSkills id='Skills'>
-      <h1>Habilidades</h1>
       <S.SkillsIcon>
         <SiHtml5 className='icon' />
         <SiCss3  className='icon' />

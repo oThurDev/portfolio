@@ -14,7 +14,9 @@ export const Texts = styled.div`
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
     justify-content: center;
+    width: 700px;
 
     > span {
         font-size: 25px;
@@ -26,11 +28,20 @@ export const Texts = styled.div`
     }
 `;
 
-export const ButtonsHome = styled.div`
+export const RightHome = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    justify-content: center;
+`;
+
+export const PerfilImg = styled.img`
+    height: 600px;
+    width: 600px;
+    filter: drop-shadow(0 0 15px #3117eb);
+    transition: all ease-in-out 1s;
+
+    &:hover {
+        transform: scale(1.1);
+    }
 `;
 
 export const ButtonsSocials = styled.div`
@@ -54,6 +65,7 @@ export const DownloadCv = styled.div`
     transition: .5s;
     cursor: pointer;
     align-items: center;
+    margin: 30px 0;
 
     > a {
         text-decoration: none;
