@@ -75,4 +75,20 @@ export const Nav = styled.div`
             }
         }
     }
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+`;
+
+export const HeaderMobileMenu = styled.div`
+    display: none;
+
+    > .menu {
+        font-size: 30px;
+    }
+
+    @media (max-width: 768px) {
+        display: flex;
+    }
 `;
