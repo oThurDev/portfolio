@@ -21,6 +21,11 @@ export const HeaderContainer = styled.div`
         width: 91%;
         padding: 0 50px;
     }
+
+    @media (max-width: 768px) {
+        width: 92.5%;
+        padding: 0 30px;
+    }
 `;
 
 export const Logo = styled.img`
