@@ -12,6 +12,15 @@ export const HeaderContainer = styled.div`
     filter: drop-shadow(0 0 5px #3117eb);
     padding: 0 150px;
     z-index: 999;
+
+    @media (max-width: 1440px) {
+        width: 80%;
+    }
+
+    @media (max-width: 1024px) {
+        width: 91%;
+        padding: 0 50px;
+    }
 `;
 
 export const Logo = styled.img`

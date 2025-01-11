@@ -8,6 +8,10 @@ export const ExperienceContainer = styled.div`
     padding: 0px 150px 100px 150px;
     background-color: #010207;
     scroll-margin-top: 80px;
+
+    @media (max-width: 1024px) {
+        padding: 0 50px 100px 50px;
+    }
 `;
 
 export const RightContainer = styled.div`

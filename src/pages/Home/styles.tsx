@@ -8,6 +8,11 @@ export const ContainerHome = styled.div`
     height: 100vh;
     padding: 0 150px;
     background-color: #010207;
+
+    @media (max-width: 1024px) {
+        padding: 0;
+        justify-content: center;
+    }
 `;
 
 export const Texts = styled.div`
@@ -41,6 +46,10 @@ export const PerfilImg = styled.img`
 
     &:hover {
         transform: scale(1.1);
+    }
+
+    @media (max-width: 1024px) {
+        display: none;
     }
 `;
 

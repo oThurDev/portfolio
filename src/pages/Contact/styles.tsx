@@ -102,11 +102,19 @@ export const RightContainer = styled.div`
     > span {
         font-size: 28px;
     }
+
+    @media (max-width: 1024px) {
+        margin-top: 100px;
+    }
 `;
 
 export const ImgsContainer = styled.div`
     display:flex;
     flex-direction: column;
+
+    @media (max-width: 1024px) {
+        flex-direction: row;
+    }
 `
 
 export const SocialSection = styled.div`
@@ -130,5 +138,14 @@ export const SocialSection = styled.div`
         filter: drop-shadow(0 0 30px #3117eb);
         border-radius: 20px;
         transform: translateY(-15px);
+    }
+
+    @media (max-width: 1024px) {
+        width: 15%;
+        justify-content: space-between;
+
+        > span {
+            display: none;
+        }
     }
 `;

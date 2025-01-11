@@ -8,6 +8,12 @@ export const ProjectsContainer = styled.div`
     > a {
         text-decoration: none;
     }
+
+    @media (max-width: 1440px) {
+        grid-template-columns: repeat(2, 1fr) !important; 
+        justify-content: center;
+        align-items: center;
+    }
 `;
 
 export const Card = styled.div`
