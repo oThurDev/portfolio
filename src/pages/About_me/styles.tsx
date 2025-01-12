@@ -11,6 +11,10 @@ export const AboutContainer = styled.div`
     @media (max-width: 1024px) {
         padding: 100px 50px;
     }
+
+    @media (max-width: 320px) {
+        padding: 100px 20px;
+    }
 `;
 
 export const ResumeMe = styled.div`

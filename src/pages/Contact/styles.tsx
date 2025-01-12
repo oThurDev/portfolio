@@ -11,6 +11,10 @@ export const ContactContainer = styled.div`
     > h1 {
         text-align: center;
     }
+
+    @media (max-width: 425px) {
+        padding: 0 10px;
+    }
 `;
 
 export const BodyContact = styled.div`
@@ -31,15 +35,15 @@ export const LeftContainer = styled.div`
         margin-bottom: 200px;
     }
 
-    
+    @media (max-width: 320px) {
+        padding: 0;
+    }
 `;
 
 export const FormContact = styled.div`
     display: flex;
     flex-direction: column;
     padding-top: 30px;
-
-    
 `;
 
 export const InputGroup = styled.div`
@@ -73,6 +77,12 @@ export const InputGroup = styled.div`
     > input:focus~label,
     input:valid~label {
         top: -5px;
+    }
+
+    @media (max-width: 320px) {
+        > input {
+            width: 10px;
+        }
     }
 `;
 
@@ -146,6 +156,19 @@ export const SocialSection = styled.div`
 
         > span {
             display: none;
+        }
+    }
+
+    @media (max-width: 425px) {
+        width: 425px;
+    }
+
+    @media (max-width: 320px) {
+        width: 300px;
+
+        > a svg {
+            width: 60px;
+            height: 40px;
         }
     }
 `;

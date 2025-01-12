@@ -11,6 +11,10 @@ export const ContainerSkills = styled.div`
     > h1 {
         text-align: center;
     }
+
+    @media (max-width: 420px) {
+        display: none;
+    }
 `;
 
 export const SkillsIcon = styled.div`

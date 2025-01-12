@@ -42,4 +42,9 @@ export const Card = styled.div`
     > &:last-child {
         margin-right: 0;
     }
+
+    @media (max-width: 425px) {
+        width: 200px;
+        height: 150px;
+    }
 `;

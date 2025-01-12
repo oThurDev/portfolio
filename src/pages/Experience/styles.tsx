@@ -12,12 +12,24 @@ export const ExperienceContainer = styled.div`
     @media (max-width: 1024px) {
         padding: 0 50px 100px 50px;
     }
+
+    @media (max-width: 425px) {
+        flex-direction: column;
+    }
 `;
 
 export const RightContainer = styled.div`
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
+
+    @media (max-width: 425px) {
+        max-width: 425px;
+
+        > h1 {
+            text-align: center;
+        }
+    }
 `;
 
 export const CompaniesDescription = styled.div`
@@ -28,6 +40,19 @@ export const CompaniesDescription = styled.div`
     padding: 20px;
     border-radius: 30px;
     width: 800px;
+
+    @media (max-width: 425px) {
+        width: 300px;
+        margin-left: 0;
+    }
+
+    @media (max-width: 375px) {
+        width: 320px;
+    }
+    
+    @media (max-width: 320px) {
+        width: 280px;
+    }
 `;
 
 export const Companies = styled.div`
@@ -56,6 +81,11 @@ export const Companies = styled.div`
     > a:hover {
         background-color: #3117eb;
     }
+
+    @media (max-width: 425px) {
+        flex-direction: row;
+        display: none;
+    }
 `;
 
 export const CompanyDetail = styled.div`
@@ -75,5 +105,11 @@ export const TitleCompany = styled.div`
 
     @media (max-width: 768px) {
         flex-direction: column;
+    }
+
+    @media (max-width: 320px) {
+        > h2 {
+            font-size: 24px;
+        }
     }
 `;
