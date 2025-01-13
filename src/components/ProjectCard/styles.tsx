@@ -8,6 +8,16 @@ export const ProjectsContainer = styled.div`
     > a {
         text-decoration: none;
     }
+
+    @media (max-width: 1440px) {
+        grid-template-columns: repeat(2, 1fr) !important; 
+        justify-content: center;
+        align-items: center;
+    }
+
+    @media (max-width: 768px) {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
 `;
 
 export const Card = styled.div`
@@ -31,5 +41,10 @@ export const Card = styled.div`
 
     > &:last-child {
         margin-right: 0;
+    }
+
+    @media (max-width: 425px) {
+        width: 200px;
+        height: 150px;
     }
 `;

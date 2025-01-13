@@ -8,6 +8,11 @@ export const ContainerHome = styled.div`
     height: 100vh;
     padding: 0 150px;
     background-color: #010207;
+
+    @media (max-width: 1024px) {
+        padding: 0;
+        justify-content: center;
+    }
 `;
 
 export const Texts = styled.div`
@@ -26,6 +31,30 @@ export const Texts = styled.div`
     > h1 {
         font-size: 40px;
     }
+
+    @media (max-width: 425px) {
+        width: 400px;
+
+        > span {
+            width: 300px;
+        }
+    }
+
+    @media (max-width: 375px) {
+        > span {
+            font-size: 20px;
+        } 
+
+        > h1 {
+            font-size: 25px;
+        }
+    }
+
+    @media (max-width: 320px) {
+        > h1 {
+            font-size: 22px;
+        }
+    }
 `;
 
 export const RightHome = styled.div`
@@ -41,6 +70,10 @@ export const PerfilImg = styled.img`
 
     &:hover {
         transform: scale(1.1);
+    }
+
+    @media (max-width: 1024px) {
+        display: none;
     }
 `;
 
@@ -81,6 +114,14 @@ export const DownloadCv = styled.div`
             color: #3117eb;
         }
     }
+
+    @media (max-width: 375px) {
+        width: 350px;
+    }
+
+    @media (max-width: 320px) {
+        width: 300px;
+    }
 `;
 
 export const ButtonContact = styled.div`
@@ -110,6 +151,14 @@ export const ButtonContact = styled.div`
         > a {
             color: #3117eb;
         }
+    }
+
+    @media (max-width: 375px) {
+        width: 350px;
+    }
+
+    @media (max-width: 320px) {
+        width: 300px;
     }
 `;
 

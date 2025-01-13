@@ -11,6 +11,10 @@ export const ContactContainer = styled.div`
     > h1 {
         text-align: center;
     }
+
+    @media (max-width: 425px) {
+        padding: 0 10px;
+    }
 `;
 
 export const BodyContact = styled.div`
@@ -31,15 +35,15 @@ export const LeftContainer = styled.div`
         margin-bottom: 200px;
     }
 
-    
+    @media (max-width: 320px) {
+        padding: 0;
+    }
 `;
 
 export const FormContact = styled.div`
     display: flex;
     flex-direction: column;
     padding-top: 30px;
-
-    
 `;
 
 export const InputGroup = styled.div`
@@ -74,6 +78,12 @@ export const InputGroup = styled.div`
     input:valid~label {
         top: -5px;
     }
+
+    @media (max-width: 320px) {
+        > input {
+            width: 10px;
+        }
+    }
 `;
 
 export const ButtonSubmit = styled.button`
@@ -102,11 +112,19 @@ export const RightContainer = styled.div`
     > span {
         font-size: 28px;
     }
+
+    @media (max-width: 1024px) {
+        margin-top: 100px;
+    }
 `;
 
 export const ImgsContainer = styled.div`
     display:flex;
     flex-direction: column;
+
+    @media (max-width: 1024px) {
+        flex-direction: row;
+    }
 `
 
 export const SocialSection = styled.div`
@@ -130,5 +148,27 @@ export const SocialSection = styled.div`
         filter: drop-shadow(0 0 30px #3117eb);
         border-radius: 20px;
         transform: translateY(-15px);
+    }
+
+    @media (max-width: 1024px) {
+        width: 15%;
+        justify-content: space-between;
+
+        > span {
+            display: none;
+        }
+    }
+
+    @media (max-width: 425px) {
+        width: 425px;
+    }
+
+    @media (max-width: 320px) {
+        width: 300px;
+
+        > a svg {
+            width: 60px;
+            height: 40px;
+        }
     }
 `;

@@ -12,6 +12,28 @@ export const HeaderContainer = styled.div`
     filter: drop-shadow(0 0 5px #3117eb);
     padding: 0 150px;
     z-index: 999;
+
+    @media (max-width: 1440px) {
+        width: 80%;
+    }
+
+    @media (max-width: 1024px) {
+        width: 91%;
+        padding: 0 50px;
+    }
+
+    @media (max-width: 768px) {
+        width: 92.5%;
+        padding: 0 30px;
+    }
+
+    @media (max-width: 425px) {
+        width: 90%;
+    }
+
+    @media (max-width: 320px) {
+        width: 82%;
+    }
 `;
 
 export const Logo = styled.img`
@@ -60,5 +82,21 @@ export const Nav = styled.div`
                 filter: drop-shadow(0 0 20px #3117eb);
             }
         }
+    }
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+`;
+
+export const HeaderMobileMenu = styled.div`
+    display: none;
+
+    > .menu {
+        font-size: 30px;
+    }
+
+    @media (max-width: 768px) {
+        display: flex;
     }
 `;

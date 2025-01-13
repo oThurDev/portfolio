@@ -2,6 +2,7 @@ import React from 'react';
 import * as S from "./styles"
 
 import ImgLogo from "../../assets/logo_simple.png";
+import { SlMenu } from 'react-icons/sl';
 
 const Header: React.FC = () => {
   return (
@@ -18,6 +19,9 @@ const Header: React.FC = () => {
                 <li><a href='#Contact'>Contato</a></li>
             </ul>
         </S.Nav>
+        <S.HeaderMobileMenu>
+          <SlMenu className='menu' />
+        </S.HeaderMobileMenu>
     </S.HeaderContainer>
   );
 }
