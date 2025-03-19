@@ -66,11 +66,20 @@ export const PerfilImg = styled.img`
     height: 600px;
     width: 600px;
     filter: drop-shadow(0 0 15px #3117eb);
-    transition: all ease-in-out 1s;
+    /* animation: ImageAnimation 2s ease-in-out infinite;
 
-    &:hover {
-        transform: scale(1.1);
-    }
+    @keyframes ImageAnimation {
+        0% {
+            margin-top: 40px;
+        }
+        50% {
+            margin-top: -40px;
+            scale: 1.05;
+        }
+        100% {
+            margin-top: 40px;
+        }
+    } */
 
     @media (max-width: 1024px) {
         display: none;
@@ -83,45 +92,7 @@ export const ButtonsSocials = styled.div`
     justify-content: center;
     gap: 20px;
     margin-top: 20px;
-`;
-
-export const DownloadCv = styled.div`
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 400px;
-    height: 50px;
-    background-color: #3117eb;
-    border: 1px solid #fff;
-    box-shadow: 0 0 10px #3117eb;
-    border-radius: 20px;
-    transition: .5s;
-    cursor: pointer;
-    align-items: center;
-    margin: 30px 0;
-
-    > a {
-        text-decoration: none;
-    }
-
-    &:hover {
-        background-color: #010207;
-        box-shadow: 0 0 20px #010207;
-        border: 1px solid #3117eb;
-        box-shadow: 0 0 30px #3117eb;
-        
-        > a {
-            color: #3117eb;
-        }
-    }
-
-    @media (max-width: 375px) {
-        width: 350px;
-    }
-
-    @media (max-width: 320px) {
-        width: 300px;
-    }
+    margin-bottom: 20px;
 `;
 
 export const ButtonContact = styled.div`

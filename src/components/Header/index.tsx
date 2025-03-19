@@ -14,7 +14,7 @@ const Header: React.FC = () => {
             <ul>
                 <li><a href='#Home'>Home</a></li>
                 <li><a href='#AboutMe'>Sobre Mim</a></li>
-                <li><a href='#Skills'>Habilidades</a></li>
+                <li><a href='#Skills'>Skills</a></li>
                 <li><a href='#Projects'>Projetos</a></li>
                 <li><a href='#Contact'>Contato</a></li>
             </ul>
