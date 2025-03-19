@@ -47,7 +47,7 @@ const Home: React.FC = () => {
           </S.ButtonContact>   
         </S.Texts>
         <S.RightHome>
-          <S.PerfilImg src={Perfil} />
+          {/* <S.PerfilImg src={Perfil} /> */}
         </S.RightHome>
     </S.ContainerHome>
   );
