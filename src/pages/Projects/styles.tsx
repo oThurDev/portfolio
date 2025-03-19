@@ -22,6 +22,7 @@ export const ProjectsCards = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 1fr;
+    margin-left: 50px;
 `;
 
 export const ButtonProjects = styled.div`
