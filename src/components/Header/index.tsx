@@ -3,6 +3,7 @@ import * as S from "./styles"
 
 import ImgLogo from "../../assets/logo_simple.png";
 import { SlMenu } from 'react-icons/sl';
+import { Link } from 'react-router-dom';
 
 const Header: React.FC = () => {
   return (
@@ -12,11 +13,10 @@ const Header: React.FC = () => {
         </a>
         <S.Nav>
             <ul>
-                <li><a href='#Home'>Home</a></li>
-                <li><a href='#AboutMe'>Sobre Mim</a></li>
-                <li><a href='#Skills'>Skills</a></li>
-                <li><a href='#Projects'>Projetos</a></li>
-                <li><a href='#Contact'>Contato</a></li>
+                <li><Link to='/'>Home</Link></li>
+                <li><Link to='/about-me'>Sobre Mim</Link></li>
+                <li><Link to='/skills'>Skills</Link></li>
+                <li><Link to='/projects'>Projetos</Link></li>
             </ul>
         </S.Nav>
         <S.HeaderMobileMenu>

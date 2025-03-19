@@ -55,6 +55,9 @@ const Home: React.FC = () => {
           </S.Texts>
         </motion.div>
         <S.RightHome>
+<<<<<<< HEAD
+          {/* <S.PerfilImg src={Perfil} /> */}
+=======
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -62,6 +65,7 @@ const Home: React.FC = () => {
           >
             <S.PerfilImg src={Perfil} />
           </motion.div>
+>>>>>>> 5abc3d99c6d1291692ddaac028e13248f9d38110
         </S.RightHome>
     </S.ContainerHome>
   );
