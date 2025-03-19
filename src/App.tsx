@@ -22,16 +22,6 @@ function App() {
       </Routes>
       <Contact />
     </BrowserRouter>
-
-    // <div>
-    //   <Header />
-    //   <Home />
-    //   <AboutMe />
-    //   <Experience />
-    //   <Skills />
-    //   <Projects />
-    //   <Contact />
-    // </div>
   )
 }
 
