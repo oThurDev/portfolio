@@ -3,9 +3,8 @@ import styled from "styled-components";
 export const ContainerSkills = styled.div`
     display: flex;
     flex-direction: column;
-    padding: 25px 150px 25px 150px;
+    padding: 120px 150px 25px 150px;
     background-color: #010207;
-    scroll-margin-top: 150px;
 
     > h1 {
         text-align: center;

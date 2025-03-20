@@ -108,6 +108,7 @@ export const ButtonContact = styled.div`
     transition: .5s;
     cursor: pointer;
     align-items: center;
+    margin-bottom: 20px;
 
     > a {
         text-decoration: none;

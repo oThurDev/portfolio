@@ -14,8 +14,8 @@ const Skills: React.FC = () => {
       <h1>Minhas Skills</h1> 
       <motion.div
         initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ duration: 3 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 2 }}
       > 
         <S.SkillsCard>
             <S.ProgrammerSkills>
