@@ -54,9 +54,15 @@ const Home: React.FC = () => {
             </S.ButtonContact>   
           </S.Texts>
         </motion.div>
-        <S.RightHome>
-          {/* <S.PerfilImg src={Perfil} /> */}
-        </S.RightHome>
+        <motion.div
+          initial={{ x: '100vw', opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ type: 'spring', stiffness: 60, damping: 20, duration: 10 }}
+        >
+          <S.RightHome>
+            <S.PerfilImg src={Perfil} />
+          </S.RightHome>
+        </motion.div>
     </S.ContainerHome>
   );
 }

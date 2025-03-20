@@ -6,8 +6,7 @@ export const ProjectsContainer = styled.div`
     justify-content: center;
     align-items: center;
     background-color: #010207;
-    padding: 0 150px 50px 150px;
-    scroll-margin-top: 80px;
+    padding: 80px 150px 50px 150px;
 
     > h1 {
         margin-top: 50px;
