@@ -7,6 +7,7 @@ export const ContactContainer = styled.div`
     padding-bottom: 50px;
     background-color: #010207;   
     scroll-margin-top: 80px;
+    height: 26vw;
 
     > h1 {
         text-align: center;
@@ -109,6 +110,8 @@ export const ButtonSubmit = styled.button`
 `;
 
 export const RightContainer = styled.div`
+    width: 50%;
+
     > span {
         font-size: 28px;
     }
@@ -120,7 +123,7 @@ export const RightContainer = styled.div`
 
 export const ImgsContainer = styled.div`
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
 
     @media (max-width: 1024px) {
         flex-direction: row;
@@ -131,16 +134,17 @@ export const SocialSection = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-top: 30px;
 
     > span {
         font-size: 18px;
+        display: none;
     }
 
     > a svg {
         width: 80px;
         height: 60px;
         transition: .5s ease-in-out;
+        margin-top: 30px;
     }
 
     > a svg:hover {
