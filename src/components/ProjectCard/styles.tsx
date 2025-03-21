@@ -5,6 +5,7 @@ export const ProjectsContainer = styled.div`
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 1fr;
     overflow-x: auto;
+    width: 300%;
 
     > a {
         text-decoration: none;
