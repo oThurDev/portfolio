@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ContainerSkills = styled.div`
     display: flex;
     flex-direction: column;
-    padding: 120px 150px 25px 150px;
+    padding: 100px 150px 25px 150px;
     background-color: #010207;
 
     > h1 {

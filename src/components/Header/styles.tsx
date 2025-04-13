@@ -54,6 +54,16 @@ export const Nav = styled.div`
         gap: 20px;
 
         > li {
+            > .nav-link {
+                text-decoration: none;
+                color: white;
+                margin-right: 1rem;
+            }
+
+            > .nav-link.active {
+                color: #3117eb;
+            }
+
             > a { 
                 text-decoration: none;
                 transition: .5s all ease-in-out;
