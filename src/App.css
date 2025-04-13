@@ -6,4 +6,5 @@
     scroll-behavior: smooth;
     scrollbar-color: #3117eb #03040e;
     scrollbar-width: 10px;
+    overflow-x: hidden;
 }

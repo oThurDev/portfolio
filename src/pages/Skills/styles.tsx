@@ -5,7 +5,6 @@ export const ContainerSkills = styled.div`
     flex-direction: column;
     padding: 100px 150px 25px 150px;
     background-color: #010207;
-    scroll-margin-top: 150px;
 
     > h1 {
         text-align: center;
