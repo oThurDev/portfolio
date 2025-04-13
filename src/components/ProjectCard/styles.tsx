@@ -32,6 +32,7 @@ export const Card = styled.div`
     border-radius: 20px;
     border: 1px solid #fff;
     margin-top: 40px;
+    transition: all ease-in-out 0.5s;
 
     > div .icon {
         font-size: 25px;
@@ -41,6 +42,11 @@ export const Card = styled.div`
 
     > &:last-child {
         margin-right: 0;
+    }
+
+    &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 30px #3117eb;
     }
 
     @media (max-width: 425px) {

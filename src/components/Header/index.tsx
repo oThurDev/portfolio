@@ -3,7 +3,7 @@ import * as S from "./styles"
 
 import ImgLogo from "../../assets/logo_simple.png";
 import { SlMenu } from 'react-icons/sl';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Header: React.FC = () => {
   return (
@@ -13,10 +13,10 @@ const Header: React.FC = () => {
         </a>
         <S.Nav>
             <ul>
-                <li><Link to='/'>Home</Link></li>
-                <li><Link to='/about-me'>Sobre Mim</Link></li>
-                <li><Link to='/skills'>Skills</Link></li>
-                <li><Link to='/projects'>Projetos</Link></li>
+                <li><NavLink to='/' className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>Home</NavLink></li>
+                <li><NavLink to='/skills' className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>Skills</NavLink></li>
+                <li><NavLink to='/experience' className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>Experiência</NavLink></li>
+                <li><NavLink to='/projects' className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>Projetos</NavLink></li>
             </ul>
         </S.Nav>
         <S.HeaderMobileMenu>
